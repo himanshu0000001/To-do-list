@@ -1,0 +1,61 @@
+# To-do-list
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>To-Do List</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>२-डू List</h1>
+        <div class="add-task">
+            <input type="text" id="task" placeholder="Enter your task ">
+            &nbsp;&nbsp;&nbsp;
+            <select id="category">
+                <option value="Personal">Personal</option>
+                <option value="Coding">Coding</option>
+                <option value="College">College</option>
+                <option value="Gym">Gym</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Social">Social</option>
+                <option value="Travel">Travel</option>
+                <option value="Finance">Finance</option 
+                <option value="Miscellaneous">Miscellaneous</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;
+        
+            <button id="addBtn"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+        </div>
+        <div class="filter">
+            <label for="filterCategory">Filter by Category : &nbsp;&nbsp; </label>
+            <select id="filterCategory">
+                <option value="All">All</option>
+                <option value="Personal">Personal</option>
+                <option value="Coding">Coding</option>
+                <option value="College">College</option>
+                <option value="Gym">Gym</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Social">Social</option>
+                <option value="Travel">Travel</option>
+                <option value="Finance">Finance</option 
+                <option value="Miscellaneous">Miscellaneous</option>
+            </select>
+        </div>
+        <ul id="taskList"></ul>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
