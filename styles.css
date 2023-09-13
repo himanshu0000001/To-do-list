@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("https://c1.wallpaperflare.com/preview/987/720/965/planner-plan-planning-to-do-to-do-list-august.jpg");   */
+   background-color: #C1D99F;
+
+    background-size:cover;
+    
+   
+}
+
+.container {
+    background-image: url("https://t3.ftcdn.net/jpg/05/71/44/56/360_F_571445697_7rPOgn9vumEs559XgtrCc8ZHl0LvMGbL.jpg");
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border: 3px solid white;
+    transition: all 0.5s;
+
+
+}
+.container:hover{
+    transform: scale(1.2);
+}
+
+
+
+h1 {
+    text-align: center;
+    color : #212121;
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        
+    }
+}
+
+.complete-btn{
+    background-color: #74B72E;
+}
+
+.edit-btn{
+    background-color: #007bff;
+}
+
+.delete-btn{
+    background-color: red;
+}
